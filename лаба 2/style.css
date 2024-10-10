@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+.contend-right {
 img{
     padding:120px;
     background-color: lightblue;
@@ -27,4 +28,5 @@ img{
     border-radius: 30px;
     width: 600px;
     height: 800px;
+}
 }
