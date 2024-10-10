@@ -1,0 +1,30 @@
+li {
+font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: bisque;
+    font-size: x-large;
+    color:blueviolet ;
+    padding: 10px; 
+    margin: 12px;
+}
+
+.content-left {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+img{
+    padding:120px;
+    background-color: lightblue;
+    margin: 25px;
+    border-radius: 30px;
+    width: 600px;
+    height: 800px;
+}
