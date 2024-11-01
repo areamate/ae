@@ -1,12 +1,12 @@
 li {
-font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: bisque;
     font-size: x-large;
-    color:blueviolet ;
-    padding: 10px; 
+    color: rgb(30, 13, 46);
+    padding: 10px;
     margin: 12px;
 }
 
@@ -16,15 +16,65 @@ body {
     flex-direction: column;
     border-radius: 30px;
 }
+
 .content {
     display: flex;
     flex-direction: row;
 }
-img{
-    padding:120px;
-    background-color: lightblue;
-    margin: 25px;
-    border-radius: 30px;
-    width: 600px;
-    height: 800px;
+.block {
+    background-color: rgb(34, 31, 36);
+    font-size: 20px;
+    padding: 20px;
+    margin: 200px 200px;
+}
+.image {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.container-2 {
+    background-color: rgb(194, 134, 174);
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.block-2 {
+    background-color: rgb(129, 123, 151);
+    width: 200px;
+    height: 200px;    
+}
+.flex-container {
+    background-color: rgb(207, 148, 153);
+    display: flex;
+    flex-direction: row;
+}
+.block-3 {
+    background-color: rgb(183, 184, 226);
+    width: 200px;
+    height: 200px; 
+    margin: 10px;
+    padding: 20px;
+}
+.block-5  {
+    width: 200px;
+    height: 200px; 
+    margin: 20px;
+    background-color: rgb(47, 47, 102);
+}
+.absolute-block {
+    background-color: rgb(85, 85, 145);
+    position: absolute;
+    left: -50px;
+    right: 750px;
+    top: 1850px;
+    bottom: -1500px;
+}
+.block-6 {
+    background-color: rgb(175, 175, 214);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    
 }
