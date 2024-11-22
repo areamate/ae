@@ -5,6 +5,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="greatstyleman.css">
+	   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="carouselExampleIndicators">
@@ -53,6 +55,12 @@
         </button>
     </div>
     <div class="row" id="list-item-2">
+        <div id="list-example" class="list-group col-2" >
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Images</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Films</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Bio</a>
+        </div>
+
         <div class="col-10">
             <div class="card" style="width: 18rem; margin: 30px;">
                 <img src="https://avatars.yandex.net/get-music-content/4468850/2244f6d6.a.13959203-1/m1000x1000?webp=false"
@@ -111,14 +119,14 @@
                 </div>
             </div>
         </div>
+		
         <p>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" id="list-item-3"
-                data-bs-target="collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                 BIO
             </button>
         </p>
-        <div style="min-height: 120px;">
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="collapse" id="collapseWidthExample">
                 <div class="card card-body" style="width: 300px;">
                     Sir Philip Anthony Hopkins CBE (born 31 December 1937) is a Welsh actor. One of Britain's most
                     recognisable and prolific actors, he is known for his performances on the screen and stage.
@@ -131,12 +139,8 @@
                     his
                     services to drama in 1993.
                 </div>
-            </div>
-        </div>
-        <div id="list-example" class="list-group col-2" >
-            <a class="list-group-item list-group-item-action" href="#list-item-1">Images</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-2">Films</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-3">Bio</a>
-        </div>
+            </div>	
     </div>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+</html>
